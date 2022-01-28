@@ -1,0 +1,157 @@
+:root {
+  --primary-color: #dbe1e2;
+  --primary-font: "Playfair Display";
+  --secondary-font: "Poppins";
+  --color-text: #2d4059;
+}
+
+body {
+  font: var(--secondary-font);
+  margin: 0;
+}
+.hero {
+  border: 20px solid var(--color-text);
+  background-color: var(--primary-color);
+  text-align: center;
+  margin: 0;
+  padding: 200px 20px 200px;
+  font: var(--secondary-font);
+  font: 24px;
+  color: var(--color-text);
+}
+
+.hero p {
+  line-height: 2;
+}
+
+.page {
+  border: 20px solid var(--color-text);
+  background-color: var(--primary-color);
+  padding-bottom: 20px;
+}
+.travelLink a {
+  padding: 8px;
+  border-radius: 4px;
+  line-height: 1.5px;
+  margin: 0px;
+  background-color: var(--color-text);
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.contactLink {
+  padding: 10px;
+  border-radius: 4px;
+  line-height: 1.5px;
+  margin: 150px 20px 20px 20px;
+}
+
+.contactLink a {
+  background-color: var(--color-text);
+  color: white;
+  padding: 20px 15px;
+  text-decoration: none;
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+.icons {
+  padding: 20px 20px;
+}
+
+.tripsButton {
+  padding: 10px;
+  border-radius: 4px;
+  line-height: 1.5px;
+  margin-top: 30px;
+}
+
+.tripsButton a {
+  color: var(--color-text);
+  border: 1px solid var(--color-text);
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  padding: 10px 5px;
+}
+
+h1 {
+  font: var(--primary-font);
+  font-weight: bold;
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.headingTrips {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: var(--color-text);
+  font: var(--primary-font);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h2 {
+  color: var(--color-text);
+  margin-top: 10px;
+}
+
+.bullets {
+  line-height: 22px;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 350px) {
+  .commonQuestions,
+  .background {
+    padding: 40px;
+    line-height: 3;
+    text-align: left;
+    background-color: var(--color-text);
+    border-radius: 4px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 350px) {
+  .commonQuestions,
+  .background {
+    padding: 40px;
+    line-height: 3;
+    text-align: left;
+    background-color: var(--color-text);
+    border-radius: 4px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+.contact {
+  text-align: center;
+  color: var(--color-text);
+  margin-bottom: 40px;
+}
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: var(--color-text) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: whitesmoke;
+  font-weight: bold;
+}
