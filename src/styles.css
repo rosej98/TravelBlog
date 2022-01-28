@@ -22,6 +22,7 @@ body {
 
 .hero p {
   line-height: 2;
+  font-size: 30px;
 }
 
 .page {
@@ -32,7 +33,7 @@ body {
 .travelLink a {
   padding: 8px;
   border-radius: 4px;
-  line-height: 1.5px;
+  line-height: 1.5;
   margin: 0px;
   background-color: var(--color-text);
   color: white;
@@ -45,7 +46,7 @@ body {
 .contactLink {
   padding: 10px;
   border-radius: 4px;
-  line-height: 1.5px;
+  line-height: 1.5;
   margin: 150px 20px 20px 20px;
 }
 
@@ -64,7 +65,7 @@ body {
 .tripsButton {
   padding: 10px;
   border-radius: 4px;
-  line-height: 1.5px;
+  line-height: 1.5;
   margin-top: 30px;
 }
 
@@ -80,7 +81,7 @@ body {
 h1 {
   font: var(--primary-font);
   font-weight: bold;
-  font-size: 80px;
+  font-size: 60px;
   margin-bottom: 20px;
 }
 
@@ -99,8 +100,54 @@ h2 {
   margin-top: 10px;
 }
 
+.countries {
+  margin-top: 10px;
+  font-size: 25px;
+}
 .bullets {
   line-height: 22px;
+  text-align: left;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 80px 15px 60px;
+  }
+  .hero p {
+    font-size: 15px;
+  }
+  .h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .bullets {
+    line-height: 15px;
+    font-size: 15px;
+  }
+  .headingTrips {
+    font-size: 25px;
+  }
+  .countries {
+    font-size: 20px;
+    margin-top: 18px;
+  }
+  .tripsButton a {
+    padding: 5px 2.5px;
+    font-size: 10px;
+  }
+  .commonQuestions,
+  .background {
+    padding: 20px;
+    line-height: 3;
+    text-align: left;
+    background-color: var(--color-text);
+    border-radius: 4px;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 8px;
+  }
 }
 
 .aboutMe {
@@ -109,35 +156,17 @@ h2 {
   justify-content: space-evenly;
 }
 
-@media (max-width: 350px) {
-  .commonQuestions,
-  .background {
-    padding: 40px;
-    line-height: 3;
-    text-align: left;
-    background-color: var(--color-text);
-    border-radius: 4px;
-    color: whitesmoke;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-size: 8px;
-  }
-}
-
-@media (min-width: 350px) {
-  .commonQuestions,
-  .background {
-    padding: 40px;
-    line-height: 3;
-    text-align: left;
-    background-color: var(--color-text);
-    border-radius: 4px;
-    color: whitesmoke;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
+.commonQuestions,
+.background {
+  padding: 40px;
+  line-height: 3;
+  text-align: left;
+  background-color: var(--color-text);
+  border-radius: 4px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .contact {
