@@ -32,7 +32,7 @@ body {
 }
 .travelLink a {
   padding: 8px;
-  border-radius: 4px;
+  font-size: 25px;
   line-height: 1.5;
   margin: 0px;
   background-color: var(--color-text);
@@ -43,6 +43,10 @@ body {
   font-weight: bold;
 }
 
+.countries {
+  border-radius: 20px;
+  max-width: 500px;
+}
 .contactLink {
   padding: 10px;
   border-radius: 4px;
@@ -100,10 +104,6 @@ h2 {
   margin-top: 10px;
 }
 
-.countries {
-  margin-top: 10px;
-  font-size: 25px;
-}
 .bullets {
   line-height: 22px;
   text-align: left;
@@ -130,6 +130,7 @@ h2 {
   .countries {
     font-size: 20px;
     margin-top: 18px;
+    margin-top: 10px;
   }
   .tripsButton a {
     padding: 5px 2.5px;
