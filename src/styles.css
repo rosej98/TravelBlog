@@ -147,9 +147,25 @@ h2 {
     font-size: 30px;
     margin-bottom: 10px;
   }
+
+  .contactSocial {
+    padding: 10px;
+    margin: 80px 20px 20px 20px;
+  }
+
+  .icons a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: var(--primary-font);
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+  }
+
   .travelLink a {
     padding: 4px;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1;
     margin: 0px;
     background-color: var(--color-text);
