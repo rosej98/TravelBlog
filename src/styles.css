@@ -176,6 +176,13 @@ h2 {
   margin-bottom: 40px;
 }
 
+.contactLinks {
+  font-weight: bold;
+  text-align: justify;
+  padding-left: 100px;
+  margin-top: 80px;
+}
+
 .bg-light {
   --bs-bg-opacity: 1;
   background-color: var(--color-text) !important;
