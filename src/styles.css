@@ -52,6 +52,7 @@ body {
   border-radius: 4px;
   line-height: 1.5;
   margin: 150px 20px 20px 20px;
+  text-align: center;
 }
 
 .contactSocial a {
@@ -77,6 +78,7 @@ body {
 }
 
 .icons {
+  text-align: center;
   padding: 20px 20px;
 }
 
