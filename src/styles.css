@@ -47,14 +47,14 @@ body {
   border-radius: 20px;
   max-width: 500px;
 }
-.contactLink {
+.contactSocial {
   padding: 10px;
   border-radius: 4px;
   line-height: 1.5;
   margin: 150px 20px 20px 20px;
 }
 
-.contactLink a {
+.contactSocial a {
   background-color: var(--color-text);
   color: white;
   padding: 20px 15px;
@@ -62,10 +62,37 @@ body {
   border-radius: 4px;
   text-transform: capitalize;
 }
+
+.contact {
+  text-align: center;
+  color: var(--color-text);
+  margin-bottom: 40px;
+}
+
+.contactLinks {
+  font-weight: bold;
+  text-align: justify;
+  padding-left: 100px;
+  margin-top: 80px;
+}
+
 .icons {
   padding: 20px 20px;
 }
 
+.icons a {
+  text-decoration: none;
+  margin-left: 10px;
+  color: var(--primary-font);
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+.icons a:hover {
+  background-color: var(--color-text);
+  color: whitesmoke;
+}
 .tripsButton {
   padding: 10px;
   border-radius: 4px;
@@ -116,10 +143,23 @@ h2 {
   .hero p {
     font-size: 15px;
   }
-  .h1 {
-    font-size: 40px;
+  h1 {
+    font-size: 30px;
     margin-bottom: 10px;
   }
+  .travelLink a {
+    padding: 4px;
+    font-size: 15px;
+    line-height: 1;
+    margin: 0px;
+    background-color: var(--color-text);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+
   .bullets {
     line-height: 15px;
     font-size: 15px;
@@ -169,19 +209,6 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
-
-.contact {
-  text-align: center;
-  color: var(--color-text);
-  margin-bottom: 40px;
-}
-
-.contactLinks {
-  font-weight: bold;
-  text-align: justify;
-  padding-left: 100px;
-  margin-top: 80px;
 }
 
 .bg-light {
